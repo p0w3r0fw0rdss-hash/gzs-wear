@@ -5,8 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  // Si vas a usar github.io/gzs-wear, descomenta la siguiente línea:
-  // basePath: '/gzs-wear',
+  basePath: '/gzs-wear',
+  assetPrefix: '/gzs-wear',
 };
 
 export default nextConfig;
