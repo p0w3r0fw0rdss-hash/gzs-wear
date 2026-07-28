@@ -2,7 +2,7 @@
 
 import { products } from "@/data/products";
 import { getSocialContent } from "@/data/marketing";
-import { Copy, Instagram, Twitter, Pin as Pinterest, Globe } from "lucide-react";
+import { Copy, Camera, MessageSquare, Pin, Globe } from "lucide-react";
 import { useState } from "react";
 
 export default function MarketingDashboard() {
@@ -36,7 +36,7 @@ export default function MarketingDashboard() {
                 {/* Instagram */}
                 <div className="bg-zinc-50 p-6 rounded-2xl relative">
                   <div className="flex items-center gap-2 mb-4 text-zinc-400">
-                    <Instagram className="w-4 h-4" />
+                    <Camera className="w-4 h-4" />
                     <span className="text-[10px] font-black uppercase">Instagram/TikTok</span>
                   </div>
                   <p className="text-xs text-zinc-600 leading-relaxed h-32 overflow-y-auto">{content.instagram}</p>
@@ -51,7 +51,7 @@ export default function MarketingDashboard() {
                 {/* Pinterest */}
                 <div className="bg-zinc-50 p-6 rounded-2xl relative">
                   <div className="flex items-center gap-2 mb-4 text-zinc-400">
-                    <Pinterest className="w-4 h-4" />
+                    <Pin className="w-4 h-4" />
                     <span className="text-[10px] font-black uppercase">Pinterest (Tráfico 🚀)</span>
                   </div>
                   <p className="text-xs text-zinc-600 leading-relaxed h-32 overflow-y-auto">{content.pinterest}</p>

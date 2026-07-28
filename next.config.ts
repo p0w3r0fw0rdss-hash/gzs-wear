@@ -6,7 +6,6 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   basePath: '/gzs-wear',
-  assetPrefix: '/gzs-wear',
   trailingSlash: true,
 };
 
