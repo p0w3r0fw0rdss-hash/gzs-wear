@@ -1,7 +1,7 @@
 "use client";
 
 import { useCart } from "@/store/useCart";
-import { Trash2, Minus, Plus, ArrowRight, ExternalLink } from "lucide-react";
+import { Trash2, Minus, Plus, ArrowRight, ShieldCheck, Globe } from "lucide-react";
 import Link from "next/link";
 
 export default function Cart() {
